@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimaryDark"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_bold"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatBoldAction"
+                android:contentDescription="Жирный"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_italic"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatItalicAction"
+                android:contentDescription="Курсив"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_strikethrough"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatStrikethroughAction"
+                android:contentDescription="Зачеркнутый"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_header"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatHeaderAction"
+                android:contentDescription="Заголовок"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_link"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatLinkAction"
+                android:contentDescription="Ссылка"/>
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_format_image"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:onClick="formatImageAction"
+                android:contentDescription="Изображение"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:inputType="textCapSentences|textMultiLine|textAutoCorrect"
+            android:imeOptions="actionDone"
+            android:textLocale="ru"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.2"
+            android:padding="16dp"
+            android:background="@android:color/white"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_primary_background"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="@string/save_button"
+        android:layout_margin="16dp"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Markdown Editor</string>
+    <string name="select_file_button">Выбрать файл с устройства</string>
+    <string name="or_separator">ИЛИ</string>
+    <string name="enter_url_label">Введите URL файла:</string>
+    <string name="url_hint">example.com/document.md</string>
+    <string name="download_button">Загрузить из URL</string>
+    <string name="saved_files_label">Сохраненные файлы:</string>
+    <string name="edit_button">Редактировать</string>
+    <string name="save_button">Сохранить</string>
+    <string name="loading_error">Ошибка загрузки. Проверьте URL и подключение</string>
+    <string name="file_saved">Файл сохранен</string>
+    <string name="file_open_error">Ошибка открытия файла</string>
+</resources>
