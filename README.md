@@ -50,7 +50,7 @@
 
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/markdown-editor-android.git
+git clone https://github.com/RomoBomba/MarkdownEditor-Android.git
 ```
 
 2. Откройте проект в Android Studio.
