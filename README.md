@@ -4,7 +4,7 @@
 
 ## Демо
 
-<img src="sources/record.gif" alt="Демо" width="600">
+<img src="sources/record.gif" alt="Демо" width="200">
 
 ### Ключевые требования
 - **Загрузка документов**:
