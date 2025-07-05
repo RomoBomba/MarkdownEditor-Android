@@ -4,7 +4,7 @@
 
 ## Демо
 
-![Демонстрация](sources/record.gif width ="600")
+![Демонстрация](sources/record.gif =600x)
 
 ### Ключевые требования
 - **Загрузка документов**:
@@ -72,11 +72,11 @@ git clone https://github.com/yourusername/markdown-editor-android.git
 
 ## Юнит-тесты
 
-![Результат тестов парсера](sources/parsertest.png)
+![Результат тестов парсера](sources/parsertest.png =400x)
 
 *Результат юнит-тестирования парсера.*
 
-![Результат тестов парсера таблиц](sources/tabletest.png)
+![Результат тестов парсера таблиц](sources/tabletest.png =400x)
 
 *Результат юнит-тестирования парсера таблиц отдельно.*
 
