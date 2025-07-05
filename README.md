@@ -72,11 +72,11 @@ git clone https://github.com/yourusername/markdown-editor-android.git
 
 ## Юнит-тесты
 
-<img src="sources/parsertest.png" alt="Результат тестов парсера" width="200" />
+<img src="sources/parsertest.png" alt="Результат тестов парсера" width="350" />
 
 *Результат юнит-тестирования парсера.*
 
-<img src="sources/tabletest.png" alt="Результат тестов парсера таблиц" width="200" />
+<img src="sources/tabletest.png" alt="Результат тестов парсера таблиц" width="350" />
 
 *Результат юнит-тестирования парсера таблиц отдельно.*
 
