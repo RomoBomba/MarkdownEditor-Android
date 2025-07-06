@@ -4,7 +4,7 @@
 
 ## Демо
 
-![Демонстрация](sources/record.gif)
+<img src="sources/record.gif" alt="Демо" width="250">
 
 ### Ключевые требования
 - **Загрузка документов**:
@@ -50,7 +50,7 @@
 
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/markdown-editor-android.git
+git clone https://github.com/RomoBomba/MarkdownEditor-Android.git
 ```
 
 2. Откройте проект в Android Studio.
@@ -72,11 +72,11 @@ git clone https://github.com/yourusername/markdown-editor-android.git
 
 ## Юнит-тесты
 
-![Результат тестов парсера](sources/parsertest.png)
+<img src="sources/parsertest.png" alt="Результат тестов парсера" width="350" />
 
 *Результат юнит-тестирования парсера.*
 
-![Результат тестов парсера таблиц](sources/tabletest.png)
+<img src="sources/tabletest.png" alt="Результат тестов парсера таблиц" width="350" />
 
 *Результат юнит-тестирования парсера таблиц отдельно.*
 
