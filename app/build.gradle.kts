@@ -38,10 +38,9 @@ android {
             all {
                 it.systemProperty("robolectric.enabled", "true")
                 it.jvmArgs("-noverify", "--add-opens=java.base/java.lang=ALL-UNNAMED")
-                it.maxHeapSize = "2048m" // Увеличьте память
+                it.maxHeapSize = "2048m"
 
-                // Обновленные настройки для Robolectric
-                it.systemProperty("robolectric.offline", "false") // Changed to false
+                it.systemProperty("robolectric.offline", "false")
                 it.systemProperty("robolectric.dependency.repo.url", "https://repo1.maven.org/maven2")
                 it.systemProperty("robolectric.dependency.repo.id", "central")
                 it.systemProperty("robolectric.logging.enabled", "true")
